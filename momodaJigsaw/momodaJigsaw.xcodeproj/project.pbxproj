@@ -14,6 +14,14 @@
 		1FFDB2C01E8A425A0011B2CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FFDB2BE1E8A425A0011B2CE /* LaunchScreen.storyboard */; };
 		1FFDB2CB1E8A425A0011B2CE /* momodaJigsawTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFDB2CA1E8A425A0011B2CE /* momodaJigsawTests.swift */; };
 		1FFDB2D61E8A425A0011B2CE /* momodaJigsawUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFDB2D51E8A425A0011B2CE /* momodaJigsawUITests.swift */; };
+		1FFDB2E41E8A54A40011B2CE /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 1FFDB2E31E8A54A40011B2CE /* Podfile */; };
+		1FFDB2F41E8A651A0011B2CE /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFDB2F21E8A651A0011B2CE /* Realm.framework */; };
+		1FFDB2F51E8A651A0011B2CE /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFDB2F31E8A651A0011B2CE /* RealmSwift.framework */; };
+		1FFDB2F71E8A66BE0011B2CE /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFDB2F21E8A651A0011B2CE /* Realm.framework */; };
+		1FFDB2F81E8A66BE0011B2CE /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFDB2F21E8A651A0011B2CE /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1FFDB2FA1E8A66C20011B2CE /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFDB2F31E8A651A0011B2CE /* RealmSwift.framework */; };
+		1FFDB2FB1E8A66C20011B2CE /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFDB2F31E8A651A0011B2CE /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		39A517ABB880597473AC16AE /* Pods_momodaJigsaw.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B22647E5893694B0CA9CBE1A /* Pods_momodaJigsaw.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +41,21 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		1FFDB2F91E8A66BE0011B2CE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1FFDB2FB1E8A66C20011B2CE /* RealmSwift.framework in Embed Frameworks */,
+				1FFDB2F81E8A66BE0011B2CE /* Realm.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		1FFDB2B21E8A425A0011B2CE /* momodaJigsaw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = momodaJigsaw.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FFDB2B51E8A425A0011B2CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +70,12 @@
 		1FFDB2D11E8A425A0011B2CE /* momodaJigsawUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = momodaJigsawUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FFDB2D51E8A425A0011B2CE /* momodaJigsawUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = momodaJigsawUITests.swift; sourceTree = "<group>"; };
 		1FFDB2D71E8A425A0011B2CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FFDB2E31E8A54A40011B2CE /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1FFDB2F21E8A651A0011B2CE /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		1FFDB2F31E8A651A0011B2CE /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
+		B22647E5893694B0CA9CBE1A /* Pods_momodaJigsaw.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_momodaJigsaw.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B83FCDE8060717DAE13E8CBA /* Pods-momodaJigsaw.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-momodaJigsaw.debug.xcconfig"; path = "Pods/Target Support Files/Pods-momodaJigsaw/Pods-momodaJigsaw.debug.xcconfig"; sourceTree = "<group>"; };
+		BCB6D25EE784C70E4E7DAA4A /* Pods-momodaJigsaw.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-momodaJigsaw.release.xcconfig"; path = "Pods/Target Support Files/Pods-momodaJigsaw/Pods-momodaJigsaw.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +83,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FFDB2F71E8A66BE0011B2CE /* Realm.framework in Frameworks */,
+				1FFDB2FA1E8A66C20011B2CE /* RealmSwift.framework in Frameworks */,
+				1FFDB2F41E8A651A0011B2CE /* Realm.framework in Frameworks */,
+				39A517ABB880597473AC16AE /* Pods_momodaJigsaw.framework in Frameworks */,
+				1FFDB2F51E8A651A0011B2CE /* RealmSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +115,8 @@
 				1FFDB2C91E8A425A0011B2CE /* momodaJigsawTests */,
 				1FFDB2D41E8A425A0011B2CE /* momodaJigsawUITests */,
 				1FFDB2B31E8A425A0011B2CE /* Products */,
+				F12FF2C201D78113A03DE047 /* Pods */,
+				53C383FE5A7A162E2BEBEEAA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +139,7 @@
 				1FFDB2BC1E8A425A0011B2CE /* Assets.xcassets */,
 				1FFDB2BE1E8A425A0011B2CE /* LaunchScreen.storyboard */,
 				1FFDB2C11E8A425A0011B2CE /* Info.plist */,
+				1FFDB2F61E8A65240011B2CE /* support */,
 			);
 			path = momodaJigsaw;
 			sourceTree = "<group>";
@@ -125,6 +162,33 @@
 			path = momodaJigsawUITests;
 			sourceTree = "<group>";
 		};
+		1FFDB2F61E8A65240011B2CE /* support */ = {
+			isa = PBXGroup;
+			children = (
+				1FFDB2E31E8A54A40011B2CE /* Podfile */,
+				1FFDB2F21E8A651A0011B2CE /* Realm.framework */,
+				1FFDB2F31E8A651A0011B2CE /* RealmSwift.framework */,
+			);
+			name = support;
+			sourceTree = "<group>";
+		};
+		53C383FE5A7A162E2BEBEEAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B22647E5893694B0CA9CBE1A /* Pods_momodaJigsaw.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F12FF2C201D78113A03DE047 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B83FCDE8060717DAE13E8CBA /* Pods-momodaJigsaw.debug.xcconfig */,
+				BCB6D25EE784C70E4E7DAA4A /* Pods-momodaJigsaw.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +196,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1FFDB2DA1E8A425A0011B2CE /* Build configuration list for PBXNativeTarget "momodaJigsaw" */;
 			buildPhases = (
+				0FC74FC26E1BE86DA1A7A9AC /* [CP] Check Pods Manifest.lock */,
 				1FFDB2AE1E8A425A0011B2CE /* Sources */,
 				1FFDB2AF1E8A425A0011B2CE /* Frameworks */,
 				1FFDB2B01E8A425A0011B2CE /* Resources */,
+				E877B77C2F47517054EE22AB /* [CP] Embed Pods Frameworks */,
+				5129108728F8C3750FBE8102 /* [CP] Copy Pods Resources */,
+				1FFDB2F91E8A66BE0011B2CE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,6 +302,7 @@
 			files = (
 				1FFDB2C01E8A425A0011B2CE /* LaunchScreen.storyboard in Resources */,
 				1FFDB2BD1E8A425A0011B2CE /* Assets.xcassets in Resources */,
+				1FFDB2E41E8A54A40011B2CE /* Podfile in Resources */,
 				1FFDB2BB1E8A425A0011B2CE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,6 +322,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FC74FC26E1BE86DA1A7A9AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5129108728F8C3750FBE8102 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-momodaJigsaw/Pods-momodaJigsaw-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E877B77C2F47517054EE22AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-momodaJigsaw/Pods-momodaJigsaw-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1FFDB2AE1E8A425A0011B2CE /* Sources */ = {
@@ -410,8 +527,13 @@
 		};
 		1FFDB2DB1E8A425A0011B2CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B83FCDE8060717DAE13E8CBA /* Pods-momodaJigsaw.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/momodaJigsaw",
+				);
 				INFOPLIST_FILE = momodaJigsaw/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -423,8 +545,13 @@
 		};
 		1FFDB2DC1E8A425A0011B2CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCB6D25EE784C70E4E7DAA4A /* Pods-momodaJigsaw.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/momodaJigsaw",
+				);
 				INFOPLIST_FILE = momodaJigsaw/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -507,6 +634,7 @@
 				1FFDB2DC1E8A425A0011B2CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FFDB2DD1E8A425A0011B2CE /* Build configuration list for PBXNativeTarget "momodaJigsawTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +643,7 @@
 				1FFDB2DF1E8A425A0011B2CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FFDB2E01E8A425A0011B2CE /* Build configuration list for PBXNativeTarget "momodaJigsawUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +652,7 @@
 				1FFDB2E21E8A425A0011B2CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
