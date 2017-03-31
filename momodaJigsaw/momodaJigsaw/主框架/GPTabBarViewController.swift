@@ -23,7 +23,7 @@ class GPTabBarViewController: UITabBarController,UITabBarControllerDelegate{
         
     }
     func tabBarController(_ tabBarController: UITabBarController, didSelect viewController: UIViewController) {
-        
+        NSLog("%@", viewController);
     }
     
     func tabBarController(_ tabBarController: UITabBarController, shouldSelect viewController: UIViewController) -> Bool {

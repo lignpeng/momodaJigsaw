@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F4E3A851E8CF59600A35B67 /* GPMainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4E3A831E8CF59600A35B67 /* GPMainCollectionViewCell.swift */; };
+		1F4E3A861E8CF59600A35B67 /* GPMainCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F4E3A841E8CF59600A35B67 /* GPMainCollectionViewCell.xib */; };
+		1F4E3A891E8D07AD00A35B67 /* GlobalConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4E3A881E8D07AD00A35B67 /* GlobalConst.swift */; };
 		1F4E8F7E1E8B62AE0001D3CC /* GPTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4E8F7D1E8B62AE0001D3CC /* GPTabBarViewController.swift */; };
 		1F4E8F811E8B65390001D3CC /* GPMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4E8F801E8B65390001D3CC /* GPMainViewController.swift */; };
 		1F4E8F831E8B658F0001D3CC /* GPMyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4E8F821E8B658F0001D3CC /* GPMyViewController.swift */; };
@@ -60,6 +63,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1F4E3A831E8CF59600A35B67 /* GPMainCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GPMainCollectionViewCell.swift; path = "主框架/首页/GPMainCollectionViewCell.swift"; sourceTree = "<group>"; };
+		1F4E3A841E8CF59600A35B67 /* GPMainCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GPMainCollectionViewCell.xib; path = "主框架/首页/GPMainCollectionViewCell.xib"; sourceTree = "<group>"; };
+		1F4E3A881E8D07AD00A35B67 /* GlobalConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalConst.swift; sourceTree = "<group>"; };
 		1F4E8F7D1E8B62AE0001D3CC /* GPTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GPTabBarViewController.swift; path = "主框架/GPTabBarViewController.swift"; sourceTree = "<group>"; };
 		1F4E8F801E8B65390001D3CC /* GPMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GPMainViewController.swift; path = "主框架/首页/GPMainViewController.swift"; sourceTree = "<group>"; };
 		1F4E8F821E8B658F0001D3CC /* GPMyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GPMyViewController.swift; path = "主框架/my/GPMyViewController.swift"; sourceTree = "<group>"; };
@@ -114,6 +120,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F4E3A871E8CF5A500A35B67 /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				1F4E8F801E8B65390001D3CC /* GPMainViewController.swift */,
+				1F4E3A831E8CF59600A35B67 /* GPMainCollectionViewCell.swift */,
+				1F4E3A841E8CF59600A35B67 /* GPMainCollectionViewCell.xib */,
+			);
+			name = "首页";
+			sourceTree = "<group>";
+		};
 		1F4E8F7F1E8B64D80001D3CC /* resource */ = {
 			isa = PBXGroup;
 			children = (
@@ -152,9 +168,10 @@
 				1FFDB2B71E8A425A0011B2CE /* ViewController.swift */,
 				1FFDB2B91E8A425A0011B2CE /* Main.storyboard */,
 				1F4E8F7D1E8B62AE0001D3CC /* GPTabBarViewController.swift */,
-				1F4E8F801E8B65390001D3CC /* GPMainViewController.swift */,
+				1F4E3A871E8CF5A500A35B67 /* 首页 */,
 				1F4E8F821E8B658F0001D3CC /* GPMyViewController.swift */,
 				1FFDB2BE1E8A425A0011B2CE /* LaunchScreen.storyboard */,
+				1F4E3A881E8D07AD00A35B67 /* GlobalConst.swift */,
 				1F4E8F7F1E8B64D80001D3CC /* resource */,
 				1FFDB2F61E8A65240011B2CE /* support */,
 			);
@@ -317,6 +334,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F4E3A861E8CF59600A35B67 /* GPMainCollectionViewCell.xib in Resources */,
 				1FFDB2C01E8A425A0011B2CE /* LaunchScreen.storyboard in Resources */,
 				1FFDB2BD1E8A425A0011B2CE /* Assets.xcassets in Resources */,
 				1FFDB2E41E8A54A40011B2CE /* Podfile in Resources */,
@@ -393,6 +411,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F4E3A851E8CF59600A35B67 /* GPMainCollectionViewCell.swift in Sources */,
+				1F4E3A891E8D07AD00A35B67 /* GlobalConst.swift in Sources */,
 				1F4E8F811E8B65390001D3CC /* GPMainViewController.swift in Sources */,
 				1FFDB2B81E8A425A0011B2CE /* ViewController.swift in Sources */,
 				1F4E8F7E1E8B62AE0001D3CC /* GPTabBarViewController.swift in Sources */,
