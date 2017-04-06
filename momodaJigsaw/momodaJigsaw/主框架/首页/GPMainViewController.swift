@@ -40,6 +40,10 @@ class GPMainViewController: UIViewController,UICollectionViewDelegate,UICollecti
     //添加新的拼图
     func addNewJigsaw() {
         NSLog("添加新的拼图")
+        let newGame = GPNewGameViewController()
+        self.navigationController?.hidesBottomBarWhenPushed = true
+//        self.navigationController?.hidesBarsOnTap = true
+        self.navigationController?.pushViewController(newGame, animated: true)
     }
     //管理拼图
     func managerJigsaw() {
