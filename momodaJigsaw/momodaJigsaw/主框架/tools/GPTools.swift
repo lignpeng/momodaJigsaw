@@ -33,3 +33,25 @@ func scaleImageSize(size:CGSize) -> CGSize {
     
     return CGSize(width: size.width * scale, height: size.height * scale)
 }
+
+//获得某个范围内的屏幕图像
+func clipImageFromView(view:UIView,targetFrame:CGRect) -> UIImage? {
+    UIGraphicsBeginImageContext(size(object:view))
+    guard let context = UIGraphicsGetCurrentContext() else {
+        return nil
+    }
+    context.saveGState();
+    UIRectClip(targetFrame)
+    guard let image = UIGraphicsGetImageFromCurrentImageContext() else {
+        return nil
+    }
+    UIGraphicsEndImageContext();
+    return image
+}
+
+
+//func createFileName() -> String {
+//    char data[32];
+//    for (int x=0;x<32;data[x++] = (char)('A' + (arc4random_uniform(26))));
+//    return [[NSString alloc] initWithBytes:data length:32 encoding:NSUTF8StringEncoding];
+//}

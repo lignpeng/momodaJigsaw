@@ -38,7 +38,9 @@ class GPNewGameViewController: UIViewController {
         self.imageView.image = image
         self.view.addSubview(self.imageView)
         self.gridView = GPGridView(frame: self.iframe.insetBy(dx: -2, dy: -2))
+        self.gridView.updateGridView(gridData: (row: 2 , column: 3, frame: self.iframe.insetBy(dx: -2, dy: -2)))
         self.view.addSubview(self.gridView)
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem.init(title: "保存", style: .plain, target: self, action: #selector(saveClipImages))
     }
     
     func selectImageAction() -> UIImage {
@@ -46,6 +48,10 @@ class GPNewGameViewController: UIViewController {
         let image = UIImage.init(named: "8")!
         
         return image
+    }
+    
+    func saveClipImages() {
+        self.gridView.clipImages()
     }
 
 }

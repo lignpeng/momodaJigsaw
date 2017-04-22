@@ -64,6 +64,7 @@ class GPMainViewController: UIViewController,UICollectionViewDelegate,UICollecti
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         NSLog("%d", indexPath.row)
+        self.addNewJigsaw()
         
     }
 }

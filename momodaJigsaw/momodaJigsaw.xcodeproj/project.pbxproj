@@ -21,11 +21,7 @@
 		1FFDB2CB1E8A425A0011B2CE /* momodaJigsawTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFDB2CA1E8A425A0011B2CE /* momodaJigsawTests.swift */; };
 		1FFDB2D61E8A425A0011B2CE /* momodaJigsawUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFDB2D51E8A425A0011B2CE /* momodaJigsawUITests.swift */; };
 		1FFDB2E41E8A54A40011B2CE /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 1FFDB2E31E8A54A40011B2CE /* Podfile */; };
-		1FFDB2F41E8A651A0011B2CE /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFDB2F21E8A651A0011B2CE /* Realm.framework */; };
-		1FFDB2F51E8A651A0011B2CE /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFDB2F31E8A651A0011B2CE /* RealmSwift.framework */; };
-		1FFDB2F71E8A66BE0011B2CE /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFDB2F21E8A651A0011B2CE /* Realm.framework */; };
 		1FFDB2F81E8A66BE0011B2CE /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFDB2F21E8A651A0011B2CE /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		1FFDB2FA1E8A66C20011B2CE /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFDB2F31E8A651A0011B2CE /* RealmSwift.framework */; };
 		1FFDB2FB1E8A66C20011B2CE /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1FFDB2F31E8A651A0011B2CE /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1FFDBA011E8FC1F7006DD821 /* GPNewGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFDBA001E8FC1F7006DD821 /* GPNewGameViewController.swift */; };
 		1FFDBA051E8FC7F1006DD821 /* GPTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFDBA041E8FC7F1006DD821 /* GPTools.swift */; };
@@ -105,11 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FFDB2F71E8A66BE0011B2CE /* Realm.framework in Frameworks */,
-				1FFDB2FA1E8A66C20011B2CE /* RealmSwift.framework in Frameworks */,
-				1FFDB2F41E8A651A0011B2CE /* Realm.framework in Frameworks */,
 				39A517ABB880597473AC16AE /* Pods_momodaJigsaw.framework in Frameworks */,
-				1FFDB2F51E8A651A0011B2CE /* RealmSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

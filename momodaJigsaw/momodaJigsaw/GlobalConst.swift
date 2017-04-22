@@ -22,22 +22,37 @@ func x(object:UIView) -> CGFloat {
     return object.frame.origin.x
 }
 
+func x(frame:CGRect) -> CGFloat {
+    return frame.origin.x
+}
+
 func y(object:UIView) -> CGFloat {
     return object.frame.origin.y
+}
+func y(frame:CGRect) -> CGFloat {
+    return frame.origin.y
 }
 
 func width(object:UIView) -> CGFloat {
     return object.frame.size.width
 }
-
+func width(frame:CGRect) -> CGFloat {
+    return frame.size.width
+}
 func height(object:UIView) -> CGFloat {
     return object.frame.size.height
+}
+func height(frame:CGRect) -> CGFloat {
+    return frame.size.height
 }
 
 func center(object:UIView) -> CGPoint {
     return object.center
 }
 
+func size(object:UIView) -> CGSize {
+    return object.frame.size
+}
 //************ 扩展 *************
 //给UIColor添加扩展
 extension UIColor {
